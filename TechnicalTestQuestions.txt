@@ -1,0 +1,27 @@
+Introduction
+===========================
+We would only expect this exercise to take a couple of hours. If you can’t work your way through all the questions in this time, please just provide some written answers to how you would approach solving the problem. The output from this test will form the basis of a technical discussion with the technical team at Money Dashboard.
+Please submit your answers ahead of your interview so that we can review it and ensure that we are all prepared to discuss.
+
+Setting the scene
+===========================
+This is a simple project that allows a user to log in and see his transactions. Currently there is only 1 user, and his transactions are stored in a csv file. Although the code mostly works, it has a few issues and could be improved.
+
+Tasks
+===========================
+1. Validate username and password on login screen
+   1. username: needs to be an email
+   2. password:
+      1. at least 8 characters
+      2. at least 1 lowercase character
+      3. at least 1 uppercase character
+      4. at least 1 numeric character
+1. Create a new balance history page, which shows a list of the daily balances of the user. Use the user’s current balance and transactions to generate the list. 
+2. Only display 10 transactions per page. Implement paging using ajax, so users can move between all transactions using previous/next buttons without having to reload the whole page.
+3. Using html, css and javascript, make the page look more on-brand for Money Dashboard, with at minimum:
+   1. black header with main nav
+   2. menu to navigate between transactions and balances
+1. Ensure that the transactions page renders nicely on a mobile device.
+2. Improve the code where appropriate if you come across any bad practices, broken code or code that performs badly. Provide an overview of what you changed, and why.
+3. Make a list of other suggested changes/improvements. This could be adding best practices, improvements to maintainability etc.
+4. How would you go about scaling this solution?
